@@ -1,0 +1,35 @@
+body {
+    background-color: #f3f3f3;
+}
+
+.container {
+    margin-top: 150px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+h1 {
+    font-size: 2.2em;
+    margin-bottom: 15px;
+    font-family: 'Ledger';
+}
+
+p {
+    font-size: 1.2em;
+    font-family: 'Arial';
+    font-weight: 400;
+}
+
+.txt-container {
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.col-md-12 {
+    margin-top: 50px;
+    text-align: justify;
+}

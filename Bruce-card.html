@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100dvh;
+            font-size: 16px;
+        }
+
+        .info {
+            margin-top: 100px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin-top: 10px;
+            text-align: left;
+        }
+
+        .col-md-6 {
+            margin-bottom: 20px;
+        }
+
+        .col-md-12 {
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            margin-left: 50px;
+            border-radius: 18px;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #333;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        h4 {
+            color: #333;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                height: auto;
+            }
+
+            .info {
+                margin-top: 0;
+            }
+
+            img {
+                margin-left: 0;
+                margin-bottom: 20px;
+            }
+        }
+        
+    </style>
+    <title>Bootstrap Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 info">
+                <h1>Bruce l'ours brun</h1>
+                <p>Bruce est un notre ours brun de 1m90 et vous pouvez trouvez si dessous des informations utiles, il seras malheureusement difficile de le voir puisqu'il est triste, son soignant est en vacance.</p><br>
+                <div class="row">
+                        <div class="col-md-12">
+                            <h2>Comportement de Bruce</h2>
+                            <p>Alimentation: Omnivor, Ils mangent une variéter de baies, de racines, de fruits, de bourgeons, de graines et d'herbe pour un total de 18000 calories par jours ce qui fait environs 40kg de nourriture</p>
+                            <p>Activités: Grimper aux arbres, dormir, jouer.</p>
+                            <p>Caractère: Calme et curieux, Bruce est en très bonne santé, bien qu'il se sentent un peu seul car Charle sont soigneurs est en vacances.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2>Comment aider Bruce</h2>
+                            <p>Participer à des programmes de conservation</p>
+                            <p>Éviter d'acheter des produits issus de la chasse illégale</p>
+                            <p>Contribuer à la préservation des habitats naturels</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2>Informations sur Bruce</h2>
+                            <p>Age: 5 ans</p>
+                            <p>Poids: 300 kg</p>
+                            <p>Habitat: Forêt</p>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-md-6">
+                <img src="images/ours.jpg" alt="Image">
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

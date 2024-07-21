@@ -1,0 +1,9 @@
+CREATE DATABASE zoo; 
+USE zoo;
+CREATE TABLE utilisateurs (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nom_utilisateur VARCHAR(255) NOT NULL UNIQUE,
+  mot_de_passe VARCHAR(255) NOT NULL
+);
+INSERT INTO utilisateurs (nom_utilisateur, mot_de_passe)
+VALUES ('veto', 'password_1234');
